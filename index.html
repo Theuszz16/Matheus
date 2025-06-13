@@ -3,21 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifólio</title>
+    <title>Portifólio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header Class="container text-center">
-    <p>Meu nome é Matheus</p>
-    <h1>Aluno do 2° do ensino medio</h1>
-    <p>sou aluno do NSL na area de exatas</p>
-    <p>Programo nas linguagens</p>
-    <div>
-        <p>HTML</p>
-        <p>JavaScript</p>
-        <p>Scratch</p>
+    <header class="container text-center">
+        <img src="matheus ghibli.png" class="rounded-circle" width="200" height="200">
+        <p class="lead">Eu sou o Matheus</p>
+        <h1>Eu ensino Programação</h1>
+        <p>Eu me chamo Matheus. Sou estudante do colégio Nossa Senhora de Lourdes do 2ª do ensino médio.</p>
+        <p>Programo nas Linguagens</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Python</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;"> <!--CARD 1-->
+                    <img src="print do scratch.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto Scratch</h5>
+                      <p class="card-text">Jogo basado no famoso game PONG feito na linguagem de programação em blocos na plataforma Scratch.</p>
+                      <button type='button' class='btn btn-link' data-bs-toggle='modal' data-bs-target='#modal1'>Saiba Mais</button>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="modal" id='modal1' tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Pong com Scratch</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Acesse o(s) link(s) para mais infofrmações.</p>
+        </div>
+        <div class="modal-footer">
+            <a href='https://scratch.mit.edu/projects/1027987154/'>Ver projeto ao vivo</a>
+        </div>
+        </div>
     </div>
-   </header> 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+    </div>
+
+
+<footer class="container">
+    <h2>Entre em contato</h2>
+    <div>
+        <a href="https://github.com/Chave1r0">GitHub</a>
+        <p>E-mail: matheus.branco.teodoro@escdola.pr.gov.br</p>
+    </div>
+    <p class="mt-4">Site desenvolvido por Matheus Branco</p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
 </body>
 </html>
